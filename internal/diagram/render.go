@@ -1,0 +1,1 @@
+// Renders Mermaid.js diagram as an image
