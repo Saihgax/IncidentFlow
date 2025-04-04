@@ -3,7 +3,7 @@ package diagram
 
 import (
 	"fmt"
-	"incident-diagram/internal/models"
+	"incidentflow/internal/models"
 	"strings"
 )
 

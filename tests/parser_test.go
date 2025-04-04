@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"../internal/diagram"
+	"incidentflow/internal/diagram"
 	"testing"
 )
 

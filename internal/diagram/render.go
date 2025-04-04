@@ -1,5 +1,5 @@
 // Renders Mermaid.js diagram as an image
-package main
+package diagram
 
 import (
 	"context"
@@ -13,7 +13,8 @@ import (
 
 // renderMaid takes Mermaid.js syntax and renders it as an image
 func renderMaid(mermaidCode string, outputFile string) error {
-	ctx, cancel = chromedp.NewContext(context.Background())
+	
+	ctx, cancel := chromedp.NewContext(context.Background())
 	defer cancel()
 
 	// Mermaid HTML template

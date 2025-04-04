@@ -3,7 +3,7 @@ package diagram
 import (
 	"encoding/json"
 	"errors"
-	"../models"
+	"incidentflow/internal/models"
 	"os"
 )
 

@@ -1,9 +1,9 @@
 package main
 
-import {
+import (
 	"fmt"
 	"os"
-}
+)
 
 // Incident represents the structure of an incident
 
@@ -34,7 +34,7 @@ func main() {
 
 	fileName := "incident.mmd"
 	err := os.WriteFile(fileName, []byte(mermaidData), 0644)
-	if err != null {
+	if err != nil {
 		fmt.Println("Error writing file:", err)
 		return
 	}
