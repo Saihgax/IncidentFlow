@@ -1,0 +1,32 @@
+{
+    "title": "Database Outage",
+    "description": "A database outage affected user logins.",
+    "occurred_at": "2025-04-01T12:00:00Z",
+    "events": [
+      {
+        "timestamp": "2025-04-01T12:05:00Z",
+        "actor": "Monitoring System",
+        "action": "Alerted",
+        "details": "Database connection failures detected."
+      },
+      {
+        "timestamp": "2025-04-01T12:10:00Z",
+        "actor": "Engineer A",
+        "action": "Investigated",
+        "details": "Checked database logs and found high latency."
+      },
+      {
+        "timestamp": "2025-04-01T12:15:00Z",
+        "actor": "Engineer B",
+        "action": "Restarted",
+        "details": "Restarted database service."
+      },
+      {
+        "timestamp": "2025-04-01T12:20:00Z",
+        "actor": "Monitoring System",
+        "action": "Resolved",
+        "details": "Database connectivity restored."
+      }
+    ]
+  }
+  
