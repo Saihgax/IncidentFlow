@@ -77,8 +77,3 @@ Endpoints:
 
 ## Contribution
 Pull requests are welcome! If you'd like to improve or extend this project, please open an issue before submitting changes.
-
-
-## License
-MIT License
-
